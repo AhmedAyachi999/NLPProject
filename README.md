@@ -1,6 +1,15 @@
-model_comparator is the main function which takes different models and execute them. 
-requirements.txt for installing dependencies 
+# Project Overview
 
-Contradiction_example is the facebook BART model for detecting contradiction
-patterndiscoverer is the code for generating the knowledge graph
-Synthetic manufacturing data is an example of data generated from chatgpt based on rules and randomness 
+This project demonstrates a framework for comparing and evaluating different models.
+
+## Architecture
+
+- **Base Model**: The main architecture can be understood from the `models` folder. All models inherit or use this base model.
+- **Model Comparator**: The `model_comparator` is the main function. It takes different models as input and executes them for comparison.
+- **Dependencies**: Install required packages listed in `requirements.txt`.
+
+## Components
+
+- **Contradiction Example**: Uses the Facebook BART model for detecting contradictions.
+- **Pattern Discoverer**: Code for generating a knowledge graph from data.
+- **Synthetic Manufacturing Data**: Example data generated via ChatGPT, based on predefined rules and randomness.
